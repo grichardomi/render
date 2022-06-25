@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: hasura
+  name: hasura-api
   env: docker
   autoDeploy: false
   healthCheckPath: /healthz
@@ -19,4 +19,4 @@ services:
 #  - key: HASURA_GRAPHQL_ADMIN_SECRET
 #    generateValue: true
 databases:
-- name: hasura
+- name: hasura-api
